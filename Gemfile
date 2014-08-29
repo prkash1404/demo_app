@@ -6,12 +6,19 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.5'
 
-
+<<<<<<< HEAD
 # Use postgresql as the database for Active Record
 
 # gem 'sqlite3'
 
 gem 'pg', '~>0.17.1'       #  group: :production
+=======
+
+# Use sqlite3 as the database for Active Record
+
+gem 'pg'
+
+>>>>>>> acabcfe7437e37578b65319cb6678ff2fa01d022
 
 # Use SCSS for stylesheets
 
@@ -53,9 +60,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 
 
-#gem ’rb-readline’
+<<<<<<< HEAD
 
+=======
+#gem â€™rb-readlineâ€™
 
+#gem 'pg', '~>0.17.1',          group: :production
+>>>>>>> acabcfe7437e37578b65319cb6678ff2fa01d022
 
 gem 'rails_12factor', '~>0.0.2',        group: :production
 
